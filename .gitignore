@@ -1,5 +1,6 @@
 build/*
-deps/*
+deps/glfw/*
+deps/glm/*
 # Prerequisites
 *.d
 
