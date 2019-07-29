@@ -1,4 +1,4 @@
-build/*
+
 deps/glfw/*
 deps/glm/*
 
