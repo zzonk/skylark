@@ -1,1 +1,3 @@
-Skylark v9.8 coming soon.../.
+Run get_deps.sh first.
+Then cd into ./build
+then cmake

@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 2.8.12)
 project(Skylark)
+file(MAKE_DIRECTORY build)
+execute_process(COMMAND ${CMAKE_SOURCE_DIR}/script.sh args
+                WORKING_DIRECTORY ${CMAKE_SOURCE_DIR})
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
