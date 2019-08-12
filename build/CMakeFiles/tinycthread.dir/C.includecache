@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zonk/dev/skylark/deps/glfw/deps/tinycthread.c
+tinycthread.h
+/home/zonk/dev/skylark/deps/glfw/deps/tinycthread.h
+stdlib.h
+-
+signal.h
+-
+sched.h
+-
+unistd.h
+-
+sys/time.h
+-
+errno.h
+-
+process.h
+-
+sys/timeb.h
+-
+
+/home/zonk/dev/skylark/deps/glfw/deps/tinycthread.h
+time.h
+-
+sys/time.h
+-
+pthread.h
+-
+windows.h
+-
+
